@@ -1,0 +1,22 @@
+<body>
+    <ul id="playlist">
+      <li><a href="#" onclick="changeSong('song1.mp3')">Song 1</a></li>
+      <li><a href="#" onclick="changeSong('song2.mp3')">Song 2</a></li>
+      <li><a href="#" onclick="changeSong('song3.mp3')">Song 3</a></li>
+    </ul>
+    <div id="player">
+      <div id="song-title">Select a song to play</div>
+      <audio id="audio-player" controls>
+        <source id="audio-source" src="" type="audio/mpeg">
+      </audio>
+    </div>
+    <script>
+      function changeSong(src) {
+        var audio = document.getElementById('audio-player');
+        var title = document.getElementById('song-title');
+        audio.src = src;
+        title.innerHTML = src;
+        audio.play();
+      }
+    </script>
+  </body>
