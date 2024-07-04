@@ -10,7 +10,7 @@ Cách cài đặt:
 -Role user:
   + tk : Trong123@gmail.com
   + pass: 3211
-Tính năng chính:
+* Tính năng chính:
 - Tạo, sửa thông tin
 - Nghe nhạc, nghe theo thể loại nhạc
 ....
