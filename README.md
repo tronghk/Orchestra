@@ -4,7 +4,6 @@ Cách cài đặt:
 - Tạo 1 database: quanlyorchestra
 - import file .sql vừa clone
 - Chạy project: chạy từ file signin theo đường dẫn Orchestra\user\signin.php
-- mở project và run :
 - Role admin
   + tk : admin@gmail.com
   + pass:  123
